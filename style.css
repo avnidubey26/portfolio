@@ -418,3 +418,21 @@ section {
   transform: translateY(-5px);
   box-shadow: 0 0 20px rgba(200,162,255,0.3);
 }
+
+.resume-btn {
+  display: inline-block;
+  margin-top: 15px;
+  padding: 8px 16px;
+  border: 1px solid #ff2e9f;
+  color: #ff2e9f;
+  border-radius: 6px;
+  text-decoration: none;
+  font-size: 14px;
+  transition: 0.3s;
+}
+
+.resume-btn:hover {
+  background: #ff2e9f;
+  color: white;
+  box-shadow: 0 0 10px #ff2e9f;
+}
