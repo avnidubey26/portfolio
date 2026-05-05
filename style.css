@@ -257,24 +257,21 @@ footer {
 }
 
 @media(max-width:768px){
-  .nav-links {
-    display: none;
-    flex-direction: column;
-    position: absolute;
-    right: 20px;
-    top: 60px;
-    background: #0a0a0a;
-    padding: 15px;
-    border-radius: 8px;
-  }
 
-  .nav-links.active {
-    display: flex;
+  nav {
+    justify-content: space-between;
   }
 
   .menu-toggle {
     display: block;
+    margin-left: auto; /* 👈 moves toggle to right */
   }
+
+  .nav-links {
+    right: 20px;
+    left: auto; /* ensure right side open */
+  }
+
 }
 
 .magnetic {
